@@ -5,7 +5,7 @@ trigger:
       - master
   paths:
     include:
-      - '/advanced_samples/UomsSample/DotNet'
+      - '/src/'
 
 pr:
   branches:
@@ -13,7 +13,7 @@ pr:
       - master
   paths:
     include:
-      - '/advanced_samples/UomsSample/DotNet'
+      - '/src/'
 
 schedules:
   - cron: '0 0 * * 0'
@@ -23,10 +23,17 @@ schedules:
         - master
     always: true
 
+resources:
+  repositories:
+  - repository: templates
+    type: github
+    name: osisoft/OSI-Samples
+    endpoint: osisoft/OSI-Samples
+
 variables:
-  - template: '/miscellaneous/build_templates/variables.yml'
+  - template: '/miscellaneous/build_templates/variables.yml@templates'
   - name: projPath
-    value: '/advanced_samples/UomsSample/DotNet'
+    value: '/src/'
   - name: CredFile
     value: appsettings.json
   - name: CredFileLibrary
@@ -45,7 +52,7 @@ jobs:
     pool:
       vmImage: $(imageName)
     steps:
-      - template: '/miscellaneous/build_templates/config.yml'
+      - template: '/miscellaneous/build_templates/config.yml@templates'
         parameters:
           fileOriginal: $(CredFile)
           fileLibrary: $(CredFileLibrary)
@@ -60,6 +67,6 @@ jobs:
           testRunTitle: '$(Agent.JobName) on $(imageName)'
           workingDirectory: $(Build.SourcesDirectory)$(projPath)/
 
-  - template: '/miscellaneous/build_templates/analysis.yml'
+  - template: '/miscellaneous/build_templates/analysis.yml@templates'
     parameters:
       language: dotnet
