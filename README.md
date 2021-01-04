@@ -2,7 +2,7 @@
 
 **Version:** 1.1.6
 
-[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OCS/UOM_DotNet?branchName=master)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=928&branchName=master)
+[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OCS/osisoft.sample-ocs-uom-dotnet?repoName=osisoft%2Fsample-ocs-uom-dotnet&branchName=master)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2625&repoName=osisoft%2Fsample-ocs-uom-dotnet&branchName=master)
 
 Developed against DotNet 3.1.
 
