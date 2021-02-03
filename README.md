@@ -1,10 +1,10 @@
 # UOMs DotNet Sample
 
-**Version:** 1.1.6
+**Version:** 1.1.7
 
 [![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OCS/osisoft.sample-ocs-uom-dotnet?repoName=osisoft%2Fsample-ocs-uom-dotnet&branchName=master)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2625&repoName=osisoft%2Fsample-ocs-uom-dotnet&branchName=master)
 
-Developed against DotNet 3.1.
+Developed against DotNet 5.0.
 
 ## Running the sample
 
@@ -14,7 +14,8 @@ Replace the placeholders in the `appsettings.json` file with your TenantID, Name
 
 ### Requirements
 
-- .NET Core 3.1 or later
+- .NET 5.0 or later
+  - Note: Visual Studio 16.8 or later is required for development against .NET 5.0
 - Reliable internet connection
 
 ### Using Visual Studio
@@ -48,7 +49,7 @@ The UOM sample follows these steps
 
 ---
 
-Tested against DotNet 3.1.
+Tested against DotNet 5.0.
 
 For the main OCS samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples-OCS)  
 For the main OSIsoft samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples)
