@@ -1,8 +1,8 @@
 # UOMs DotNet Sample
 
-**Version:** 1.1.7
+**Version:** 1.1.8
 
-[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OCS/osisoft.sample-ocs-uom-dotnet?repoName=osisoft%2Fsample-ocs-uom-dotnet&branchName=master)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2625&repoName=osisoft%2Fsample-ocs-uom-dotnet&branchName=master)
+[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OCS/osisoft.sample-ocs-uom-dotnet?repoName=osisoft%2Fsample-ocs-uom-dotnet&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2625&repoName=osisoft%2Fsample-ocs-uom-dotnet&branchName=main)
 
 Developed against DotNet 5.0.
 
@@ -51,5 +51,5 @@ The UOM sample follows these steps
 
 Tested against DotNet 5.0.
 
-For the main OCS samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples-OCS)  
-For the main OSIsoft samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples)
+For the main OCS samples page [ReadMe](https://github.com/osisoft/OSI-Samples-OCS)  
+For the main OSIsoft samples page [ReadMe](https://github.com/osisoft/OSI-Samples)
