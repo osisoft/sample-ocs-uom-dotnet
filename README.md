@@ -1,6 +1,6 @@
 # UOMs DotNet Sample
 
-**Version:** 1.1.12
+**Version:** 1.1.13
 
 [![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/OCS/osisoft.sample-ocs-uom-dotnet?repoName=osisoft%2Fsample-ocs-uom-dotnet&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2625&repoName=osisoft%2Fsample-ocs-uom-dotnet&branchName=main)
 
